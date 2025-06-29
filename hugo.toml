@@ -1,0 +1,35 @@
+baseURL = "https://ttti.cc/nav/"
+languageCode = "zh-CN"
+title = "极限导航"
+theme = "hugo-webstack"
+
+disablePathToLower = true # true 允许大写字母 url 路径，false:将 url 路径转换小写
+copyright = "极限玩家" # 作者名字（页脚）
+
+# 网站信息，不显示，仅供搜索引擎参考
+[params]
+  keywords = "极限玩家,网址导航,网站导航"
+  description = "极限玩家,网址导航,网站导航"
+
+[params.search]
+  enable = true # 是否开启搜索栏
+
+[params.darkmode]
+  enable = true # 默认是否深色
+
+# 主页菜单栏是否显示在线编辑按钮（ 编辑 github 文件，适用于自动化部署的情况）
+[params.edit]
+  enable = false
+  url = "https://github.com/NanJishen/nav/blob/main/data/webstack.yml" # github 文件的远程链接你的
+  
+# 桌面端右上角是否显示 Code 按钮
+[params.github]
+  enable = false
+  url = "https://github.com/NanJishen/nav"
+  
+[permalinks]  
+  404 = "/404.html"
+
+# 是否对本地搜索功能开启拼音匹配，拼音库体积 337k 支持首字母匹配
+[params.pinyin]
+  enable = true

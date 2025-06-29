@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>极限导航</title>
+    <link>http://localhost:5050/nav/</link>
+    <description>Recent content on 极限导航</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <copyright>极限玩家</copyright>
+    <lastBuildDate>Wed, 07 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:5050/nav/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>关于网站</title>
+      <link>http://localhost:5050/nav/about/</link>
+      <pubDate>Wed, 07 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:5050/nav/about/</guid>
+      <description>&lt;h3 id=&#34;极限玩家主页&#34;&gt;极限玩家主页&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ttti.cc&#34;&gt;极限玩家博客&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;导航说明&#34;&gt;导航说明&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;logo ：已内置 API ，留空即可自动加载&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;description ：可以复制网站自带描述内容，浏览器按 F12，在&amp;quot;元素&amp;quot;栏按 Ctrl+F，搜&amp;quot;desc&amp;quot; ，第一个就是&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;qrcode ：可以填写 API，如 &lt;a href=&#34;https://api.qrserver.com/v1/create-qr-code/?size=150x150&amp;amp;data=https://netcut.cn/&#34;&gt;https://api.qrserver.com/v1/create-qr-code/?size=150x150&amp;amp;data=https://netcut.cn/&lt;/a&gt;（加载较慢，使用本地图片更快）&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://origin.fontawesome.com/v6/search/&#34;&gt;FontAwesome 图标&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>子页面一</title>
+      <link>http://localhost:5050/nav/sub1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:5050/nav/sub1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>子页面二</title>
+      <link>http://localhost:5050/nav/sub2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:5050/nav/sub2/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
